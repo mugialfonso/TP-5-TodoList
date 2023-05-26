@@ -1,3 +1,51 @@
 .App {
   text-align: center;
 }
+
+#inputItem input {
+  padding: 10px;
+  border: 1px solid rgb(165, 165, 165);
+  width: 50%;
+}
+
+#inputItem button {
+  width: 15%;
+  padding: 10px 12px;
+  background-color: rgb(52, 235, 235);
+  font-size: 16px;
+  border: none;
+  margin-left: 10px;
+}
+
+#inputItem button:hover {
+  background-color: aqua;
+  cursor: pointer;
+}
+
+#itemList {
+  margin-top: 10px;
+}
+
+#itemList ul {
+  list-style-type: none;
+}
+
+#itemList ul li {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#itemList ul li span {
+  padding: 5px;
+}
+
+#itemList ul li span:nth-child(2) {
+  background-color: grey;
+  cursor: pointer;
+}
+
+.done {
+  text-decoration: line-through;
+}
